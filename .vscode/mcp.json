@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "lauterbach-trace32": {
+      "type": "stdio",
+      "command": "lauterbachdebugger-mcp",
+      "env": {
+        "T32_HOST": "localhost",
+        "T32_PORT": "20000",
+        "T32SYS": "~/t32",
+        "T32_HINTS": "/path/to/hints.md"
+      }
+    }
+  }
+}
